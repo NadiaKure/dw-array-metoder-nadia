@@ -32,4 +32,14 @@ console.log("Opgave 5", newNumbers);
 
 //opgave 6
 console.log("Opgave 6", dogsArray.join(""));
+
+//opgave 7
+console.log("Opgave 7a", fruitsArray.indexOf("Mango"));
+
+console.log("Opgave 7b", fruitsArray.indexOf("Blåbær"));
+
+//opgave 8
+dogsArray = dogsArray.filter(dog => dog !== "Polly");
+
+console.log("Opgave 8", dogsArray);
 }) // ends DOMContentLoaded
