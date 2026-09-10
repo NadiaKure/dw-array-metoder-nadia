@@ -24,4 +24,9 @@ console.log("Opgave 3b", dogsArray.includes("Baxter"));
 console.log("Opgave 4a", catsArray.find(cat => cat === "Bagheera"));
 
 console.log("Opgave 4b", catsArray.find(cat => cat === "Salem"));
+
+//opgave 5
+let newNumbers = numbersArray.map(number => number * 3);
+
+console.log("Opgave 5", newNumbers);
 }) // ends DOMContentLoaded
