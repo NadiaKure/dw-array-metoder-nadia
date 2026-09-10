@@ -19,4 +19,9 @@ console.log("Opgave 2", catsArray);
 console.log("Opgave 3a", dogsArray.includes("Trixie"));
 
 console.log("Opgave 3b", dogsArray.includes("Baxter"));
+
+//opgave 4
+console.log("Opgave 4a", catsArray.find(cat => cat === "Bagheera"));
+
+console.log("Opgave 4b", catsArray.find(cat => cat === "Salem"));
 }) // ends DOMContentLoaded
