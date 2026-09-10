@@ -29,4 +29,7 @@ console.log("Opgave 4b", catsArray.find(cat => cat === "Salem"));
 let newNumbers = numbersArray.map(number => number * 3);
 
 console.log("Opgave 5", newNumbers);
+
+//opgave 6
+console.log("Opgave 6", dogsArray.join(""));
 }) // ends DOMContentLoaded
